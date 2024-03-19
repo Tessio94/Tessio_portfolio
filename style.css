@@ -24,7 +24,8 @@ html {
 }
 
 body {
-  background: var(--bg-color);
+  /* background: var(--bg-color); */
+  background-color: red;
   color: var(--text-color);
 }
 
