@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="hamburger"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- sekcija br 1 - homepage -->
+    <section class="section1" id="home">
+      <div class="section1-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Šime Klapan</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+          repellat.
+        </p>
+        <div class="social-links">
+          <a
+            href="https://hr.linkedin.com/in/%C5%A1ime-klapan-469b3815a?trk=public_profile_browsemap"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/Tessio94" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <a
+          href="files/ažurirani CV.pdf"
+          download="files/ažurirani CV.pdf"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="section1-image">
+        <img src="./images/moja_slika.jpg" alt="Šime K" id="moja-slika" />
+      </div>
+    </section>
+
+    <!-- sekcija br 2 - about -->
+    <section class="section2" id="about">
+      <div class="section2-image">
+        <img src="images/cartoon-developer.jpg" alt="Š K" id="moja-slika" />
+      </div>
+
+      <div class="section2-content">
+        <h2 class="title">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          Hello, I'm Šime Klapan, a 29-year-old aspiring frontend developer
+          based in Zadar. A year ago, I embarked on a journey into frontend
+          development, honing skills in JavaScript, CSS, HTML, React... Despite
+          having majored in finance in Zagreb and finance background, I'm
+          determined to transition into field of Information Technology.
+        </p>
+        <button id="about-btn" class="btn">Read More</button>
+      </div>
+    </section>
+
+    <!-- sekcija br 3 - skills -->
+    <section class="section3" id="skills">
+      <h2 class="title">My <span>Skills</span></h2>
+
+      <div class="section3-container">
+        <div class="skill">
+          <h3>HTML</h3>
+          <i class="bx bxl-html5"></i>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <i class="bx bxl-css3"></i>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <i class="bx bxl-javascript"></i>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+          <i class="bx bxl-react"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- sekcija br 4 - portfolio -->
+    <section class="section4" id="portfolio">
+      <h2 class="title">Latest <span>Project</span></h2>
+
+      <div class="section4-container">
+        <div class="project">
+          <img src="images/timer.jpg" alt="project-timer" />
+          <div class="project-cover">
+            <h4>Stopwatch</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/timer.jpg" alt="project-timer" />
+          <div class="project-cover">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              saepe.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/timer.jpg" alt="project-timer" />
+          <div class="project-cover">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              saepe.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sekcija br 5 - contact -->
+    <section class="section5" id="contact">
+      <h2 class="title">Contact <span>Me!</span></h2>
+
+      <form>
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" required />
+          <input type="text" placeholder="Email Subject" required />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Šime Klapan | All Rights Reserved</p>
+      </div>
+
+      <div class="footer-icon">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <div class="overlay">
+      <div class="overlay-container">
+        <i class='bx bx-x' id="close-overlay"></i>
+        <p>
+          Hello, I'm Šime Klapan, a 29-year-old aspiring frontend developer
+          based in Zadar. A year ago, I embarked on a journey into frontend
+          development, honing skills in JavaScript, CSS, HTML, React... Despite
+          having majored in finance in Zagreb and finance background, I'm
+          determined to transition into field of Information Technology.
+        </p> </br>
+        <p>
+          In my self-study, I've been watching various YouTube and Udemy courses in the aforementioned languages to deepen my understanding and broaden my skill set. I'm trying to learn new languages and stay up-to-date with the latest developments in the industry.
+        </p> </br>
+        <p>
+          Currently, I'm also enrolled in Algebra University's frontend course, where I'm expanding my knowledge under the guidance of experienced instructors. This structured learning environment allows me to deepen my understanding of frontend development principles and practices.
+        </p> </br>
+        <p>Furthermore, I'm gradually immersing myself in for me new technologies such as Tailwind CSS, TypeScript, and Node.js. While the learning curve may be steep, I embrace the challenge and am committed to mastering these tools.</p>
+      </div>
+    </div>
+  </body>
+</html>
