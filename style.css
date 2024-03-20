@@ -293,11 +293,15 @@ section {
 .section4-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  gap: 2.5rem;
+  grid-template-rows: repeat(2, 1fr);
+  /* align-items: center; */
+  gap: 5rem;
+  row-gap: 5rem;
 }
 
 .project {
+  height: 26rem;
+  width: 100%;
   position: relative;
   border: 2rem;
   box-shadow: 0 0 1rem var(--bg-color);
@@ -321,7 +325,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), var(--active-color));
+  background: linear-gradient(rgba(0, 0, 0, 0.85), var(--active-color));
   display: flex;
   justify-content: center;
   align-items: center;
